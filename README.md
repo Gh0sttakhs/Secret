@@ -21,13 +21,10 @@ python secret.py
 ```
 Upon execution, follow the on-screen prompts:
 
-Choose 1 to Encrypt or 2 to Decrypt.
+1) Choose 1 to Encrypt or 2 to Decrypt.
 
-Enter your message (in English).
+2) Enter your message (in English).
 
-The program will output your processed message.
+3) The program will output your processed message.
 
-Choose whether to continue (y) or exit (n).
-
-Structure
-secret.py: Core logic and interactive CLI implementation.
+4) Choose whether to continue (y) or exit (n).
