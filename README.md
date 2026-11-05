@@ -1,23 +1,20 @@
-# Homoglyph Encryption/Decryption Tool
+# Secret Messager
 
-A Python-based utility designed to encrypt and decrypt messages by leveraging homoglyphs between the Greek and English character sets. 
+A Python-based CLI utility designed to encrypt and decrypt messages. 
 
 ## Overview
-This tool performs character substitution using visually similar characters (homoglyphs) across different Unicode blocks. It provides a simple yet effective way to obfuscate text, ensuring that the encrypted output appears visually identical or very similar to standard text while being fundamentally different at the byte level.
+This tool provides an interactive terminal interface where users can easily encode plain English text into a secured cipher and decode it back to its original form.
 
 ## Features
-- **Bidirectional Conversion:** Seamlessly encrypt plain text and decrypt homoglyph-encoded messages.
-- **Cross-Alphabet Support:** Utilizes both Greek and English character mappings for substitution.
-- **Lightweight & Fast:** Pure Python implementation with no external dependencies required.
+- **Interactive Menu:** Simple, user-friendly prompts for selecting encryption or decryption.
+- **Continuous Execution:** Option to process multiple messages in a single session without restarting the script.
+- **Lightweight:** Pure Python implementation, running entirely in the terminal.
 
 ## Tech Stack
 - **Language:** Python 3.x
 
 ## Usage
-*(Add your specific execution commands here, e.g.)*
-```bash
-# Example encryption command
-python homoglyph_tool.py --encrypt "Your message here"
+Run the script directly from your terminal:
 
-# Example decryption command
-python homoglyph_tool.py --decrypt "Yοur mеssagе hеrе"
+```bash
+python secret.py
